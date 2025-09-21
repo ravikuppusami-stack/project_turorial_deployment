@@ -1,7 +1,15 @@
 import streamlit as st
 
 def main():
-    print("Hell0, World!")
+    st.set_page_config(
+        page_title="AI Chatbot",    
+        page_icon="🤖",           
+        layout="centered"        
+    )
+
+    # Create the page header
+    st.title("🤖 AI Chatbot")
+    st.markdown("---")  
 
 if __name__ == "__main__":
     main()
